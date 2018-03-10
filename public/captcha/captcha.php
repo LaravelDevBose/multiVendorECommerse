@@ -1,0 +1,37 @@
+<?PHP
+
+public function captha()
+{
+
+  protected $$image ;
+  // initialise image with dimensions of 120 x 30 pixels
+  $this->image = @imagecreatetruecolor(120, 30) or die("Cannot Initialize new GD image stream");
+
+  // set background to white and allocate drawing colours
+  $background = imagecolorallocate($this->image, 0xFF, 0xFF, 0xFF);
+  imagefill($this->image, 0, 0, $background);
+  $linecolor = imagecolorallocate($this->image, 0xCC, 0xCC, 0xCC);
+  $textcolor = imagecolorallocate($this->image, 0x33, 0x33, 0x33);
+
+  // draw random lines on canvas
+  for($i=0; $i < 6; $i++) {
+    imagesetthickness($this->image, rand(1,3));
+    imageline($this->image, 0, rand(0,30), 120, rand(0,30), $linecolor);
+  }
+
+  
+
+  // add random digits to canvas
+  $digit = '';
+  for($x = 15; $x <= 95; $x += 20) {
+    $digit .= ($num = rand(0, 9) );
+    imagechar($this->image, rand(3, 5), $x, rand(2, 14), $num, $textcolor);
+  }
+
+}
+  // display image and clean up
+  header('Content-type: image/png');
+  imagepng($this->image);
+  imagedestroy($this->image);
+
+?>

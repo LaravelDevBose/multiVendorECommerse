@@ -1,0 +1,427 @@
+
+/*----------- font-family: 'Mr Bedfort', cursive;
+font-family: 'Lato', sans-serif;----------------*/
+/*-------------font-family: 'Karla', sans-serif;-------------*/
+.help-top-cont{
+    height: 150px;
+}
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+table tr {
+    border: 1px solid #ddd;
+    padding: .35em;
+    font-size: 1em;
+}
+table tr:nth-child(even) {
+    background: lightblue;
+}
+table th,
+table td {
+    padding: .625em;
+    text-align: left;
+    font-size: 0.9em;
+}
+table th {
+    background: #999;
+    color: #fff;
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+table td {
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.nav-tabshelp li a{
+    color: #777;
+}
+.nav-tabshelp li a:hover{
+    color: #f06243;
+}
+
+
+
+.accordion {
+    background-color: #F7F6F2;
+    color: #5b5b5b;
+    cursor: pointer;
+    padding-rigth: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.4s;
+
+}
+
+/*
+        .accordion span{
+        margin-left:28px;
+        display:block;
+
+    }
+*/
+
+.active, .accordion:hover {
+    background-color: #fff;
+    font-weight: 400;
+    color: #777;
+;
+}
+
+.accordion:after {
+    content: "\002B";
+    font-size: 25px;
+    font-weight: 200;
+    color: steelblue    ;
+    float: right;
+    margin-left: 5px;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+    /*    padding-right: 10px;*/
+}
+
+.active:after {
+    transform: rotate(315deg);
+    /*    font-size: 28px;*/
+    font-weight: 700;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    /*    background-color: white;*/
+    background-color: beige;
+}
+.fa-plus-circle{
+    color:deepskyblue;
+    padding-right: 10px;
+}
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5b5b5b;
+}
+
+.main-btn {
+    float: left;
+    width: 30%;
+    position: fixed;
+    color: #5b5b5b;
+    padding-left: 30px;
+}
+#help-center {
+    float: left;
+    width: 30%;
+    color: #5b5b5b;
+    padding-left: 5px;
+}
+#help-main-body {
+    float: right;
+    width: 70%;
+    padding-left: 30px;
+    background: #F7F6F2;
+    padding-bottom: 25px;
+    overflow-y: auto;
+    height: 500px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border: none;
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs>li{
+    padding: 0px;
+    float: none;
+}
+.main-btn h1{
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    color: #5b5b5b;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 7px;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.main-btn button {
+    display: inherit;
+    border: none;
+    padding: 5px 0;
+    background: none;
+    margin: 8px 0;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+
+}
+.nav-tabs>li:hover {
+    color: #f06243;
+    background: #fff;
+}
+.tabcontent {
+
+    float: right;
+    width: 70%;
+    padding-left: 30px;
+    background: #F7F6F2;
+    /*    background: #FAf9F5;*/
+    padding-bottom: 25px;
+}
+.top-con {
+    padding-bottom: 20px;
+}
+.top-con img{
+    /*    max-height: 180px;*/
+    max-width: 100%;
+}
+.top-con-text{
+    display: inline-block;
+
+}
+.top-con h2{
+    margin: 5px 0px;
+    border-bottom: 1px solid #ddd;
+    /*color: #5b5b5b;*/
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 10px;*/
+    padding-bottom: 7px;
+}
+.top-con h3{
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    color: #d5a800;
+    padding-left: 25px;
+    /*    font-family: "Homemade Apple",cursive;*/
+    margin-top: 5px;
+}
+.con-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+    color: #5b5b5b;
+}
+
+.con-text{
+    padding-right: 18px;
+    letter-spacing: 0.3px;
+}
+.con-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5b5b5b;
+    /*    padding-left: 18px;*/
+}
+.con-text span{
+    padding-right: 5px;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.con-text li{
+    /*padding-right: 8px;*/
+    font-size: 14px;
+}
+
+.help-top{
+    padding-bottom: 35px;
+    display: block;
+    background: #fff;
+    width: 100%;
+}
+.help-top h1{
+    font-weight: 700;
+}
+.helpsearch-container input {
+    display: inline-block;
+    width: 700px;
+    height: 40px;
+    background: #F7F6F2;
+    border: none;
+    padding: 0 20px;
+    border-radius: 4px 0 0 4px;
+}
+.helpsearch-container button {
+    display: inline-block;
+    padding: 9px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(to bottom right, #72787F,#444C55);
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+}
+
+.helpsearch-container button:hover {
+    background: linear-gradient(to bottom right, gold, goldenrod);
+    color: #000;
+
+}
+
+.help-border{
+    background-color: transparent;
+}
+.tab-content>.active {
+    background: #F7F6F2;
+}
+/*
+* Desktop 1366px - Bootstrap Layout - MD
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px ) {
+    .main-btn {
+
+        padding-left: 5px;
+    }
+    #help-center {
+        float: left;
+        width: 27%;
+        position: fixed;
+        color: #5b5b5b;
+        padding-left: 15px;
+    }
+}
+/*
+* Tablet 768px - Bootstrap Layout - SM
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px ) {
+    .main-btn {
+
+        padding-left: 0px;
+    }
+    .helpsearch-container input {
+        width: 350px;
+    }
+    .nav-tabs>li{
+        padding: 0 8px;
+    }
+    #help-center {
+        float: left;
+        width: 29%;
+        position: fixed;
+        color: #5b5b5b;
+        padding-left: 0px;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px ) {
+    .main-btn {
+
+        padding-left: 0px;
+    }
+
+    .helpsearch-container input {
+        width: 142px;
+    }
+    .nav-tabs>li{
+        padding: 0 0px;
+    }
+    #help-center {
+        float: left;
+        width: 29%;
+        position: fixed;
+        color: #5b5b5b;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px ) {
+    .main-btn {
+
+        padding-left: 0px;
+    }
+    .main-btn h1 {
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+    .main-btn button {
+        font-size: 10px;
+    }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 4px;
+        font-size: 12px;
+    }
+    #help-center {
+        width: 25%;
+        padding-left: 7px;
+    }
+    .helpsearch-container input {
+        width: 155px;
+        height: 35px;
+        background: #F7F6F2;
+        border: none;
+        padding: 0 8px;
+        border-radius: 4px 0 0 4px;
+    }
+    .tabcontent {
+        padding-left: 12px;
+    }
+    .top-con h2 {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .nav-tabs>li{
+        padding: 0 8px;
+    }
+    .top-con h3 {
+        font-size: 10px;
+    }
+    .con-text p {
+        font-size: 9px;
+    }
+    .con-text h4 {
+        font-size: 10px;
+    }
+    .container-fluid {
+
+        font-size: 10px;
+    }
+    .accordion {
+        font-size: 10px!important;
+    }
+    .main-btn button {
+        text-align: left;
+    }
+    .container-fluid {
+        padding-right: 0px!important;
+
+    }
+    .helpsearch-container button {
+        padding: 4px 21px;
+        border-radius: 2px;
+    }
+}

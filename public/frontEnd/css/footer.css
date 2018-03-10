@@ -1,0 +1,649 @@
+body {
+    background: #fff;
+    color: #777;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+	
+}
+a:hover{
+    text-decoration: none;
+    color: deepskyblue;
+}
+/*------------------- Footer Start------------*/
+.footer-top {
+    background: #242424;
+}
+
+.parallax {
+  background-attachment: fixed !important;
+  background-position: 50% 0 !important;
+  /*-webkit-background-size: cover !important;*/
+  /*-moz-background-size: cover !important;*/
+  /*background-size: cover !important;*/
+}
+
+
+.what-is-dorpon {
+  background: url("../images/what-is-dorpon.jpg");
+  height: 354px;
+  text-align: center;
+}
+
+
+.what-is-dorpon h2 {
+  /*color: #2c2c2c;*/
+  padding-top: 85px;
+}
+
+.we-are-different h2,
+.what-is-dorpon h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.what-is-dorpon a {
+  background: linear-gradient(to bottom right, seagreen, #37af8c);
+  display: inline-block;
+    width: 150px;
+    padding: 7px 0;
+    color: #fff;
+    margin: 10px;
+    font-size: 14px;
+  font-weight: 600;
+}
+
+.what-is-dorpon a:hover {
+  text-decoration: none;
+    background: #f06243;
+    color: #fff;
+}
+
+.what-is-dorpon a i {
+  font-size: 20px;
+    vertical-align: 0px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 17px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.what-is-dorpon p {
+  font-size: 19px;
+}
+
+.stay-in-touch {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.stay-in-touch .container {
+  background: #fff;
+  padding: 0 15px;
+  /*-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .3);*/
+  /*-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .3);*/
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, .3);*/
+}
+
+.stay-in-touch h2 {
+  color: #63c6a7;
+  font-size: 29px;
+  margin-top: 0;
+  text-align:center;
+}
+
+.stay-in-touch p {
+  margin: 0;
+  /*text-align:center;*/
+}
+
+
+.stay-in-touch .list-inline,
+.stay-in-touch .input-group {
+  margin-top: 19px;
+}
+
+.stay-in-touch .input-group-addon:last-child {
+  background: #63c6a7;
+  color: #fff;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding: 5px 6px 6px 6px;
+}
+
+.stay-in-touch .input-group-addon:last-child i {
+  font-size: 26px;
+}
+
+/*.fa-facebook,
+.fa-twitter,
+.fa-google-plus,
+.fa-instagram,
+.fa-pinterest {
+  font-size: 25px !important;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 8px;
+}
+*/
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
+
+.footer-top p {
+    font-size: 18px;
+    color: #999;
+    font-style: italic;
+}
+.stay-touch{
+	/*border-top: 1px solid #ddd;*/
+	/*margin-top: 10px;*/
+	/*padding-top: 21px;*/
+}
+.ftop-left h1 {
+    font-weight: 900;
+    font-size: 25px;
+    
+}
+.searchh-container {
+    padding: 20px 0;
+}
+.searchh-container input {
+    width: 400px;
+    height: 40px;
+    background: #f7f6f2;
+    border: none;
+    padding: 0 20px;
+	border-radius: 2px 0 0 2px;
+}
+.searchh-container button {
+    padding: 9px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    /*background: #009788;*/
+    background: linear-gradient(to bottom right, seagreen, #37af8c);    
+    border: none;
+    color: #fff;
+	border-radius: 0 2px 2px 0;
+}
+.searchh-container button:hover{
+	/*background: #f06243;*/
+	/*background: linear-gradient(to bottom right,chocolate, #f06243);*/
+	background: linear-gradient(to bottom, gold, goldenrod);
+    color: #000;
+    
+}
+.brand {
+    font-size: 40px;
+    padding: 20px 0px;
+    font: italic;
+    font-weight: 900;
+    /*font-family: 'Lato', sans-serif;*/
+}
+.brand a{
+	color: #f06243;
+	
+}
+.ftop-icons {
+        /*padding: 5px 15px 25px 138px;*/
+        text-align: right;
+    padding: 8px 0;
+}
+.ftop-icons a {
+    padding: 5px;
+    font-size: 25px;
+}
+
+.ftop-icons i:hover {
+    background: #37af8c;
+}
+
+.ftop-icons i {
+    padding: 7px;
+    font-size: 25px;
+    height: 38px;
+    background: #bbb;
+    width: 38px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.footer-text {
+   padding: 4px 0px;
+    font-size: 16px;
+    color: #454545;
+	/*font-family: 'Homemade Apple', cursive;*/
+	font-weight: 400;
+}
+.footer-cont{
+    /*background: url(../../images/default/background_pattern.jpg) right top;*/
+    /*background-repeat: repeat;*/
+    background: #242424;
+    padding-bottom: 20px;
+    
+}
+
+.info {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.035);
+    padding: 10px 0px 0px 15px;
+    height: 350px;
+}
+
+.info ul {
+    list-style: none;
+    padding-left: 0;
+
+}
+.info h2{
+	font-size: 20px;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0px;
+}
+.info ul li{
+   padding: 5px 0;
+}
+.info ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #999;
+    line-height: 0;
+}
+.info ul li a:hover{
+    color: #f06243;
+}
+
+.footer-text span {
+    float: left;
+    font-size: 18px;
+}
+
+.partners {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.035);
+    padding: 10px 0px 0px 15px;
+    height: 350px;
+}
+
+.partners h2 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #f5f5f5;
+    margin-top: 0px;
+	}
+.img1 img {
+    height: 45px;
+	width: 120px;
+    padding: 5px 10px 0px 0px;
+}
+.fearured-first{
+	max-height: 135px;
+}
+.fearured-first h4{
+    font-size: 15px;
+	font-weight: 700;
+	cursor: pointer;
+	color: #999;
+}
+.featur-img {
+    display: inline-block;
+}
+.featur-img img {
+    height: 70px;
+    margin-bottom: 39px;
+    cursor: pointer;
+    border-radius: 2px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.featur-text {
+    display: inline-block;
+    width: 157px;
+    padding: 0 6px;
+}
+
+.featur-text i {
+    padding: 0 7px;
+}
+.featur-text span {
+    font-size: 13px;
+    display: block;
+    color: #999;
+    margin-left: 0px;
+}
+
+.partner-cont {
+    text-align: center;
+}
+.partner-img img {
+   height: 103px;
+    width: 165px;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer-bottom {
+    /*padding: 10px 0;*/
+    background: #000;
+}
+.footer-bottom p {
+    font-size: 13px;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+	display: inline-block;
+}
+.footer-bottom p span {
+    padding: 1px 6px;
+    border: 1px solid #fff;
+    border-radius: 48%;
+    margin-right: 7px;
+}
+.policy{
+	display: inline-block;
+	/*float: right;*/
+	font-size: 13px;
+	
+}
+.policy a{
+	padding: 0 10px;
+	color: #68cef9;
+}
+.policy a:hover{
+	color: #37af8c;
+	
+}
+/*------------------- Footer End------------*/
+
+
+
+
+/*------------Responsive*----------------/
+
+/*Desktop 1366px - Bootstrap Layout - MD*/
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px ) {
+    
+    
+    
+}
+/*--Tablet 768px - Bootstrap Layout - SM--*/
+
+@media only screen and (min-width: 768px) {
+
+.we-are-different h2, .what-is-dorpon h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 85px;
+    /*color: #c1b490;*/
+    color: #fff;
+}
+.what-is-dorpon {
+    background: url(../images/what-is-dorpon.jpg);
+    height: 354px;
+    text-align: center;
+}
+.what-is-dorpon p {
+    font-size: 15px;
+    /*color: #c1b490;*/
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 80px;
+}
+
+.stay-in-touch {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.stay-in-touch h2 {
+  color: #63c6a7;
+  font-size: 29px;
+  margin-top: 0;
+  text-align:center;
+}
+
+.stay-in-touch p {
+    margin: 0;
+    /*text-align: center;*/
+    font-size: 22px;
+}
+.stay-in-touch .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: 75%;
+    margin-bottom: 0;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: 0px;
+    list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 8px;
+}
+.stay-in-touch .list-inline, .stay-in-touch .input-group {
+    margin-top: 19px;
+}
+.stay-in-touch .input-group-addon:last-child {
+    background: #63c6a7;
+    color: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 5px 6px 6px 6px;
+}
+   
+}
+
+
+/*---Mobile - Bootstrap Layout - XS----*/
+@media only screen and (max-width: 767px ) {
+    
+}
+
+
+
+/*---Wide 480px - Bootstrap Layout - XS--*/
+
+@media only screen and (min-width: 413px) and (max-width: 767px ) {
+    .ftop-left h1 {
+    font-size: 21px;
+}
+.stay-in-touch input[type="text"] {
+    width: 205px;
+    font-size: 14px;
+}
+.searchh-container button {
+    padding: 9px 5px;
+    font-size: 14px;
+}
+.stay-in-touch p {
+    font-size: 15px;
+}
+.brand {
+    font-size: 19px;
+    padding: 20px 0px;
+}
+.stay-in-touch p {
+    font-size: 15px;
+}
+.info {
+        border-top: 2px solid #ddd;
+    text-align: center;
+}
+.footer-btm, .footer-bottom p{
+       text-align: center;
+}
+.policy{
+    float: none;
+}
+.partner-img img {
+    height: 115px;
+    width: 226px;
+}
+
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 412px ) {
+.we-are-different h2, .what-is-dorpon h2 {
+    font-size: 1.2em;
+    padding-top: 1.5em;
+}
+.what-is-dorpon {
+    height: 200px;
+}
+.what-is-dorpo p {
+    font-size: .58em;
+}
+.what-is-dorpon a {
+    width: 188px;
+    padding: 7px 0;
+    color: #fff;
+    margin: 1em auto 1.5em;
+    font-size: 14px;
+    /*text-transform: uppercase;*/
+}
+.what-is-dorpon a i {
+    font-size: 19px;
+    vertical-align: 0px;
+    border: none;
+    border-radius: 50%;
+    line-height: 17px;
+    text-align: center;
+    width: 6px;
+    height: 20px;
+    font-weight: 900;
+}
+.stay-in-touch {
+    margin-top: 3em;
+    /*margin-bottom: 3em;*/
+}
+.stay-in-touch h2 {
+    font-size: 1.1em;
+}
+.stay-in-touch p {
+    font-size: 15px;
+}
+.stay-in-touch .input-group .form-control {
+    width: 100%;
+}
+    /*footer*/
+   .ftop-left h1{
+	      font-size: 21px;
+   }
+   .searchh-container input{
+	       width: 200px;
+   }
+   .stay-in-touch input[type="text"] {
+    width: 205px;
+        font-size: 14px;
+   }
+   .searchh-container button {
+    padding: 9px 5px;
+    font-size: 14px;
+   }
+   .ftop-left p{
+	       font-size: 17px;
+   }
+   .footer-top p{
+	       font-size: 12px;
+   }
+   .brand{
+	 font-size: 19px;
+    padding: 20px 0px;
+   }
+   .ftop-icons{
+	       padding: 18px 3px 0px 12px;
+   }
+   .ftop-img img{
+	           width: 310px;
+	           /*padding-top: 23px;*/
+	           margin-bottom: 0px;
+   }
+   .footer-text{
+	   padding: 10px;
+    font-size: 12px;
+   }
+   .info{
+	   border-top: 2px solid #ddd;
+	   text-align: center;
+   }
+   .featur-text{
+	   width: 166px;
+   }
+   .featur-img img{
+	    margin-bottom: 45px;
+   }
+   .partners h2{
+	   text-align: center;
+	   padding-left: 0px;
+   }
+   .partners {
+   border-top: 2px solid #ddd;
+   }
+   .ftop-icons i{
+  padding: 8px 0px 0px 1px;
+    font-size: 25px;
+    height: 39px;
+    background: gray;
+    width: 39px;
+   }
+   .partner-img img{
+	           height: 94px;
+   }
+   .footer-btm p{
+	   text-align: center;
+   }
+   .policy {
+	    text-align: center;
+   } 
+   .policy a{
+		      padding: 25px;
+   }
+    
+}

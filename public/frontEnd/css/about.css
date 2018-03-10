@@ -1,0 +1,490 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #5b5b5b;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.top-bg{
+    background: url(../../images/default/banner_about.jpg) fixed;
+    height: 600px;
+    font-family: 'Open Sans', sans-serif;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+}
+.top-bg h1{
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 5px 5px 10px black;
+    padding-top: 21%;
+    margin-top: 0;
+
+}
+.top-bg h1 a{
+    color: #fff;
+    font-size: 50px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+.navbar-inverse{
+    background: rgba(0, 0, 0, 0.67);
+    z-index: 888;
+}
+.nav.navbar-nav {
+    padding-left: 70px;
+    /*    position: absolute*/
+}
+.navbar-inverse .navbar-nav>li{
+    padding: 15px;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: coral;
+}
+
+.navbar-inverse .navbar-nav>li>a.active{
+    color: coral;
+}
+
+.cont-text{
+    font-family: 'Open Sans', sans-serif;
+}
+.cont-text h3 {
+    padding: 24px 300px;
+    font-size: 30px;
+    line-height: 1.4;
+}
+.cont-text p {
+    font-size: 20px;
+    padding: 10px 300px 250px;
+}
+.artisan{
+    background: #F16244;
+    height: 200px;
+    position: relative;
+}
+.arti-img {
+    text-align: center;
+    position: absolute;
+    top: -95%;
+    left: 35%;
+}
+.shop-item {
+    padding: 50px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.shop-item-left h3 {
+    font-size: 50px;
+}
+.shop-item-left p {
+    font-size: 20px;
+}
+/*.uni-right{*/
+    /*padding-left: 135px;*/
+/*}*/
+.uni-right img {
+    padding: 10px;
+    max-width: 49%;
+}
+.sell-crt{
+    font-family: 'Open Sans', sans-serif;
+    background: #F7F6F2;
+}
+.sell-crt-cont {
+    text-align: center;
+
+
+}
+.sell-crt-img {
+}
+.sell-crt-img img{
+    max-height: 900px;
+    max-width: 900px;
+
+}
+.crative-ul {
+
+    text-align: left;
+    font-size: 20px;
+    margin: -153px 189px;
+    padding: 36px 36px 200px 238px;
+}
+.sell-menu ul{
+}
+.sell-menu ul li{
+}
+.crative-ul ul li a{
+    color: #000;
+
+}
+.comunity{
+    font-family: 'Open Sans', sans-serif;
+}
+.sell-crt-cont h1{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    /*border-top: 1px solid #ddd;*/
+    /*letter-spacing: 5px;*/
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 27px;
+
+
+}
+.comunity h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    /*    border-top: 1px solid #ddd;*/
+    /*letter-spacing: 5px;*/
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 27px;
+}
+
+.join-right-img img{
+    padding-right: 20px;
+    height: 245px;
+}
+.join-right{
+    padding-left: 25px;
+}
+.join-left img {
+    /*max-width: 570px;*/
+    /*max-height: 325px;*/
+    width: 96%;
+}
+.join-menu {
+    padding-left: 18px;
+    padding-top: 15px;
+}
+.join-menu ul{
+    font-size: 20px;
+    padding-left: 0px;
+    margin-right: 38px;
+}
+.join-menu ul li{
+}
+.join-menu ul li a{
+    color: #000;
+}
+
+
+/*
+* Desktop 1366px - Bootstrap Layout - MD
+*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px ) {
+    .nav.navbar-nav {
+        padding-left: 0px;
+
+    }
+    .navbar-inverse .navbar-nav>li {
+        padding: 1px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 20px;
+    }
+    .about-menu ul li {
+        padding: 22px 42px;
+    }
+    .cont-text h3 {
+        padding: 24px 18px;
+        font-size: 35px;
+    }
+    .cont-text p {
+        padding: 10px 20px 225px;
+        font-size: 24px;
+    }
+    .uni-right img {
+        padding: 10px;
+        width: 49%;
+    }
+    .uni-right {
+        padding-left: 0px;
+    }
+    .crative-ul {
+        font-size: 24px;
+        margin: -153px 90px;
+    }
+    .arti-img {
+        left: 31%;
+    }
+    .join-right-img{
+
+    }
+    .shop-item-left h3 {
+        font-size: 41px;
+    }
+    .shop-item-left p {
+        font-size: 21px;
+        padding: 20px 0;
+    }
+    .sell-menu {
+        left: 35%;
+        top: 244%;
+    }
+    .join-left img {
+        max-width: 470px;
+    }
+    .join-menu ul {
+        font-size: 24px;
+        padding-right: 0px;
+    }
+    .join-menu ul li {
+        padding: 5px 0;
+    }
+    .join-right-img img {
+        padding-right: 20px;
+        height: 252px;
+        width: 214px;
+        object-fit: cover;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px ) {
+
+}
+/*
+* Tablet 768px - Bootstrap Layout - SM
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px ) {
+    .nav.navbar-nav {
+        padding-left: 0px;
+
+    }
+    .navbar-inverse .navbar-nav>li {
+        padding: 0px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 13px;
+    }
+    .cont-text h3 {
+        padding: 24px 0px;
+        font-size: 25px;
+        line-height: 1.4;
+    }
+    .cont-text p {
+        font-size: 20px;
+        padding: 10px 0px 200px;
+    }
+    .arti-img {
+        top: -95%;
+        left: 25%;
+    }
+    .uni-right {
+        padding-left: 0px;
+        padding-top: 108px;
+    }
+    .uni-right img {
+        padding: 10px;
+        width: 49%;
+    }
+    .shop-item-left h3 {
+        font-size: 40px;
+    }
+    .sell-crt-img img {
+        max-width: 100%;
+    }
+    .crative-ul {
+        margin: -103px 0px;
+        padding: 0px 38px 139px 228px;
+    }
+    .join-left img {
+        max-width: 100%;
+        text-align: center;
+    }
+    .join-left {
+        text-align: center;
+    }
+    .join-right-img img {
+        padding: 25px 0;
+        width: 47%;
+    }
+    .join-right-img{
+        text-align: center;
+    }
+}
+/*
+* Mobile - Bootstrap Layout - XS
+*/
+@media only screen and (max-width: 767px ) {
+
+
+}
+/*
+* Wide 480px - Bootstrap Layout - XS
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px ) {
+
+
+
+}
+@media only screen and (min-width: 360px) and (max-width: 479px ) {
+
+    .about-menu ul li {
+        padding: 4px 21px;
+    }
+    .cont-text h3 {
+        padding: 24px 30px;
+        font-size: 25px;
+    }
+    .cont-text p {
+        font-size: 20px;
+        padding: 10px 30px 70px;
+    }
+    .join-right {
+        padding-left: 0px;
+    }
+    .join-right-img {
+        text-align: center;
+    }
+    .join-right-img img {
+        padding: 7px;
+        width: 100%;
+    }
+    .crative-ul {
+        text-align: left;
+        font-size: 20px;
+        margin: 3px 9px;
+        padding: 36px 36px 0px 8px;
+    }
+    .uni-img{
+        text-align: center;
+    }
+    .uni-right {
+        padding-left: 0px;
+    }
+    .uni-right img{
+        width: 100%;
+    }
+    .arti-img img {
+        max-width: 200px;
+    }
+    .arti-img {
+        top: -53%;
+        left: 27%;
+    }
+    .artisan {
+        height: 137px;
+    }
+    .shop-item-left h3 {
+        font-size: 36px;
+    }
+    .shop-item-left p {
+        font-size: 20px;
+    }
+    .uni-right {
+        text-align: center;
+    }
+    .sell-crt-img img {
+        max-width: 100%;
+    }
+    .sell-menu {
+        left: 31%;
+        top: 301%;
+        font-size: 11px;
+        padding-right: 32px;
+    }
+    .join-left img {
+        max-width: 100%;
+    }
+    .join-menu ul {
+
+        font-size: 20px;
+        padding-right: 10px;
+
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 359px ) {
+
+    .nav.navbar-nav {
+        padding-left: 0px;
+    }
+    .cont-text h3 {
+        padding: 24px 25px;
+        font-size: 23px;
+    }
+    .cont-text p {
+        font-size: 18px;
+        padding: 10px 23px 75px;
+    }
+    .arti-img img {
+        max-width: 200px;
+    }
+    .arti-img {
+        top: -43%;
+        left: 18%;
+    }
+    .artisan {
+        height: 140px;
+    }
+    .shop-item-left h3 {
+        font-size: 26px;
+    }
+    .shop-item-left p {
+        font-size: 16px;
+    }
+    .uni-right {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .sell-crt-cont h1 {
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .sell-crt-img img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+    .crative-ul {
+        margin: 0px;
+        padding: 16px 0;
+        font-size: 14px;
+    }
+    .crative-ul ul li {
+        padding: 3px 0;
+    }
+    .comunity h1 {
+        padding-top: 20px;
+        font-size: 26px;
+        margin-top: 9px;
+    }
+    .join-right {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .join-left img {
+        max-width: 286px;
+        max-height: 286px;
+    }
+    .join-right-img {
+        text-align: center;
+    }
+    .join-menu ul {
+        font-size: 12px;
+        padding-right: 33px;
+    }
+    .join-menu ul li {
+        padding: 6px 0;
+    }
+
+
+}

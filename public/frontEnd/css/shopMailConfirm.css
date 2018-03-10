@@ -1,0 +1,247 @@
+
+/*----------- font-family: 'Mr Bedfort', cursive;
+font-family: 'Lato', sans-serif;----------------*/
+/*-------------font-family: 'Karla', sans-serif;-------------*/
+.body-bg{
+    background:url(../../images/default/userMailBG.jpg) repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    text-align: center;
+	    padding: 15px;
+}
+.logo img {
+    max-width: 250px;
+}
+.cont-top {
+    text-align: center;
+}
+.cont-top h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #4dba9b;
+}
+.cont-top p{
+    font-size: 27px;
+padding: 10px 140px;
+        color: grey;
+    
+}
+.cont-image img {
+    width: 100%;
+}
+.email-cont{
+    background: #fff;
+    padding: 20px 0;
+}
+.cont-text {
+    text-align: center;
+        color: gray;
+}
+.cont-text ul{
+    list-style: none;
+
+}
+
+.cont-text h2{
+    text-align: center;
+}
+
+.cont-text ul li p {
+
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+
+}
+.Start-btn {
+    padding: 50px;
+    
+}
+.Start-btn a {
+    padding: 16px 110px;
+color: #fff;
+background: #F57955;
+    font-size: 30px;
+    font-weight: 700;
+        border-radius: 3px;
+}
+.sig-fnt {
+    text-align: center;
+	    padding-top: 35px;
+}
+.sign{
+	padding: 10px 0;
+}
+.sign a {
+    font-size: 60px;
+	font-family: 'Mr Bedfort', cursive;
+    color: #01AEBB;
+}
+.sig-fnt img{
+   width: 100%;
+}
+.fonts {
+    padding: 0px;
+}
+.fonts a i{
+    padding: 10px;
+    height: 45px;
+    width: 45px;
+    color: #fff;
+    background: #7D7D7D;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 25px;
+}
+.footer-tx {
+    text-align: center;
+	font-size: 24px;
+        color: gray;
+}
+.footer-tx h3 {
+    font-size: 30px;
+}
+.footer-tx p {
+    font-size: 22px;
+}
+.policy{
+	display: inline-block;
+		    text-align: center;
+	
+}
+.policy a{
+	padding: 0 10px;
+	color: #337ab7;
+}
+.policy a:hover{
+	color: #68cef9;
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*
+* Desktop 1366px - Bootstrap Layout - MD
+*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px ) {
+    .cont-image img {
+/*    width: 100%;*/
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px ) {
+    
+}
+/*
+* Tablet 768px - Bootstrap Layout - SM
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px ) {
+  
+    .cont-image img {
+/*    width: 745px;*/
+}
+
+}
+/*
+* Mobile - Bootstrap Layout - XS
+*/
+@media only screen and (max-width: 767px ) {
+
+   
+    }
+/*
+* Wide 480px - Bootstrap Layout - XS
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px ) {
+
+
+    
+}
+@media only screen and (min-width: 360px) and (max-width: 479px ) {
+
+.cont-top h2 {
+    font-size: 25px;
+}
+.logo img {
+    max-width: 150px;
+}
+.cont-top p {
+    font-size: 17px;
+    padding: 10px;
+}
+.cont-image img {
+    width: 330px;
+}
+.cont-text h2{
+    font-size: 22px;
+    text-align: center;
+}
+.cont-text ul li p {
+    font-size: 12px;
+    text-align: center;
+}
+.Start-btn {
+    padding: 22px;
+}
+.Start-btn a {
+    padding: 16px 35px;
+    color: #fff;
+    background: #F57955;
+    font-size: 18px;
+}
+.footer-tx p {
+    font-size: 17px;
+}
+  .policy a {
+    font-size: 18px;
+}  
+}
+@media only screen and (min-width: 320px) and (max-width: 359px ) {
+
+    .logo img {
+    max-width: 145px;
+}
+	.cont-top h2 {
+    font-size: 21px;
+}
+.cont-top p {
+    font-size: 16px;
+    padding: 9px 22px;
+}
+.cont-image img {
+    width: 100%;
+}
+.cont-text h2{
+    font-size: 22px;
+} 
+.Start-btn {
+    padding: 19px;
+}
+.Start-btn a {
+    padding: 9px 29px;
+    font-size: 16px;
+}
+.cont-text ul li a {
+    font-size: 16px;
+    color: #000;
+}
+.sign a {
+    font-size: 28px;
+}.sign a {
+    font-size: 28px;
+}
+.footer-tx p {
+    font-size: 16px;
+}
+}

@@ -1,0 +1,400 @@
+
+/*----------- font-family: 'Mr Bedfort', cursive;
+font-family: 'Lato', sans-serif;----------------*/
+/*-------------font-family: 'Karla', sans-serif;-------------*/
+
+
+.container-fluid{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #5b5b5b;
+}
+
+.cont-image img {
+    width: 1115px;
+}
+.email-wrapper{
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.email-con-toptx{
+    padding: 30px 0px;
+    background: #fff;
+}
+.email-con-logo {
+    padding-left: 14px;
+    display: inline-block;
+    padding-left: 40px;
+}
+.email-con-logo img {
+    max-width: 150px;
+}
+.email-con-text {
+    display: inline-block;
+    float: right;
+    color: #D06D67;
+    padding-right: 40px;
+}
+.email-con-text a{
+    color: #F75344;
+    font-size: 20px;
+    font-weight: 700;
+}
+.email-con-text span {
+    font-size: 20px;
+}
+.thank-you-sec {
+    /*    background: #37AF8C;*/
+    background: #817268;
+    padding: 50px;
+}
+.thank-you-top {
+    color: white;
+    text-align: center;
+}
+.thank-you-top h1{
+    font-family: 'Mr Bedfort', cursive;
+    font-size: 80px;
+    color: #FFFDED;
+}
+.thank-you-top h4 {
+    font-size: 22px;
+    font-weight: 100;
+}
+.thank-you-top p{
+    font-size: 22px;
+    font-weight: 100;
+}
+.email-main-con {
+    padding: 16px;
+    background: #fff;
+    border-radius: 10px;
+}
+.main-con-top p {
+    color: #37AF8C;
+    font-size: 17px;
+    font-style: italic;
+}
+.main-con-top h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5b5b5b;
+}
+.email-addre{
+    padding-left: 60px;
+}
+.address p {
+    color: #5b5b5b;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+.produc-list{
+    border-top: 1px solid #ddd;
+}
+.produc-list h1 {
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 28px;
+    color: #5b5b5b;
+}
+.first-itm-emil {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-left: 58px;
+}
+.first-itm-emil span {
+    font-size: 16px;
+}
+.first-itm-emil img {
+    height: 125px;
+    /* padding-left: 15px; */
+    width: 125px;
+    margin-left: 28px;
+    object-fit: cover;
+    object-position: center;
+}
+.first-itm-emil p {
+    display: inline-block;
+    padding-left: 4%;
+    font-size: 16px;
+}
+.price-emai {
+    display: inline-block;
+    float: right;
+    /*    padding: 10px 0px;*/
+    padding: 25px 50px
+}
+.sub-total {
+    text-align: right;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    /*    padding: 20px 0;*/
+    padding: 25px 50px;
+    margin-left: 58px;
+}
+.total-order-email {
+    text-align: right;
+    padding: 25px 50px;
+}
+.total-order-email h5{
+    text-align: right;
+    font-size: 20px;
+}
+.total-order-email h1{
+    text-align: right;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 20PX;
+    font-weight: 700;
+}
+.email-ques {
+    font-size: 16px;
+    margin-left: 58px;
+}
+.email-con-footer{
+    background: #fff;
+}
+.footer-top-email {
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-top-email h1 {
+    font-family: 'Mr Bedfort', cursive;
+    font-size: 50px;
+    color: #F47954;
+    padding: 12px 0;
+}
+.footer-top-email button {
+    padding: 12px 150px;
+    border: none;
+    background: #F75344;
+    color: #fff;
+}
+.footer-top-email button a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.fonts{}
+.fonts a i{
+    padding: 9px;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    background: #7D7D7D;
+    border-radius: 50%;
+    margin: 0 6px;
+    font-size: 21px;
+}
+
+.footer-tx {
+    text-align: center;
+}
+.footer-tx p{
+    font-size: 16px;
+}
+
+
+
+
+
+/*
+* Desktop 1366px - Bootstrap Layout - MD
+*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px ) {
+    /*
+            .cont-image img {
+        width: 930px;
+    }
+    */
+}
+/*
+* Tablet 768px - Bootstrap Layout - SM
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px ) {
+
+    /*
+        .cont-image img {
+        width: 758px;
+    }
+    */
+    .main-con-top p {
+        /*    color: red;*/
+        font-size: 18px;
+    }
+    .main-con-top h5 {
+        font-size: 17px;
+    }
+    .address p {
+        /*    color: black;*/
+        font-size: 16px;
+    }
+
+}
+/*
+* Mobile - Bootstrap Layout - XS
+*/
+@media only screen and (max-width: 767px ) {
+    /*
+              .cont-image img {
+                width: 757px;
+    }
+
+    */
+}
+/*
+* Wide 480px - Bootstrap Layout - XS
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px ) {
+
+    /*
+    .cont-image img {
+        width: 460px;
+    }
+    */
+
+}
+@media only screen and (min-width: 360px) and (max-width: 480px ) {
+
+    .email-con-logo {
+        padding-left: 7px;
+    }
+    .email-con-text {
+        padding-right: 10px;
+    }
+    .email-con-text h2{
+        font-size: 14px;
+    }
+    .email-con-text span {
+        font-size: 14px;
+    }
+    .email-con-logo img {
+        max-width: 120px;
+    }
+    .thank-you-top h1 {
+        font-size: 35px;
+    }
+    .thank-you-top h4 {
+        font-size: 20px;
+    }
+    .thank-you-top p {
+        font-size: 14px;
+    }
+    .email-addre {
+        padding-left: 23px;
+    }
+    .first-itm-emil {
+        padding: 13px 0;
+        margin-left: 0px;
+        text-align: center;}
+    .price-emai {
+        float: none;
+        padding: 10px 0px;
+    }
+    .price-emai h4{
+        margin: 0px;
+    }
+    .email-ques {
+        font-size: 14px;
+    }
+    .footer-top-email button {
+        padding: 12px 83px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px ) {
+
+    .cont-image img {
+        width: 100%;
+    }
+
+    .thank-you-sec {
+        padding: 5px;
+    }
+    .email-con-text a {
+        font-size: 14px;
+    }
+
+    .email-con-logo {
+        padding-left: 7px;
+    }
+    .email-con-text {
+        padding-right: 4px;
+    }
+    .email-con-text h2{
+        font-size: 14px;
+    }
+    .email-con-text span {
+        font-size: 10px;
+    }
+    .email-con-logo img {
+        max-width: 85px;
+    }
+    .thank-you-top h1 {
+        font-size: 35px;
+    }
+    .thank-you-top h4 {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+    .thank-you-top p {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .email-addre {
+        padding-left: 3px;
+    }
+    .main-con-top p {
+        font-size: 22px;
+    }
+    .address p {
+        font-size: 19px;
+    }
+    .produc-list h1 {
+        padding: 0px 0px;
+        font-size: 23px;
+        text-align: center;
+    }
+    .first-itm-emil {
+        padding: 13px 0;
+        margin-left: 0px;
+        text-align: center;}
+    .first-itm-emil img {
+        width: 142px;
+    }
+    .price-emai {
+        float: none;
+        padding: 10px 0px;
+    }
+    .price-emai h4{
+        margin: 0px;
+    }
+    .email-ques {
+        font-size: 12px;
+        padding: 24px 0;
+        text-align: center;
+        margin: 0px;
+    }
+    .footer-top-email button {
+        padding: 12px 73px;
+    }
+    .sub-total {
+        text-align: center;
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .first-itm-emil p {
+        display: -webkit-box;
+        padding-left: 4%;
+        font-size: 15px;
+        text-align: -webkit-center;
+    }
+    .total-order-email h5{
+        text-align: center;
+        padding: 0px;
+    }

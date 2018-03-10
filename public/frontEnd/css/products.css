@@ -1,0 +1,433 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: deepskyblue;
+}
+.desc .review-icon span{
+    color: #FFA300;
+        margin: 6px 0px 8px 0px;
+}
+
+/*-------------------Left category Menu---*/
+.checkbox2 h6 {
+    font-size: 14px;
+}
+.checkbox2 h6 span{
+    padding: 0 10px;
+    color: gray;
+}
+.price-r{
+    padding-top: 10px;
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+}
+.ui-state-default{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.ui-slider-horizontal .ui-slider-handle{
+    top: -.4em;
+    margin-left: -.6em;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+#amount_start, #amount_end{
+    border: none;
+    background-color: #F7F6F2;
+    color: steelblue;
+}
+.category-menu{
+    padding: 10px 0px;
+    /*border-bottom: 1px solid #ddd;*/
+    margin: 0px 10px;
+}
+.category-menu ul{
+    list-style: none;
+    padding: 0 20px;
+}
+.category-menu ul li a{
+    color: #909090;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.category-menu ul li a:hover{
+    text-decoration: none;
+}
+.category-menu ul li :last-child{
+    /*font-family: 'Karla', sans-serif;*/
+}
+.pendent{
+    padding-left: 25px;
+}
+.category-menu ul li a i{
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+/*-- Left category Menu--*/
+/*--custom Menu--*/
+.categories{
+    border: 1px solid #ddd;
+    padding-top: 10px;
+    background: #F7F6F2;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.checkbox2{
+    padding: 10px 5px;
+    border-top: 1px solid #ddd;
+    margin: 0px 20px;
+}
+.checkbox2 h5{
+    padding-top: 10px;
+    font-size: 16px;
+    color: gray;
+}
+/*--custom Menu--*/
+/* The container */
+.containers {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containers input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containers:hover input ~ .checkmark {
+    background-color: #eee;
+}
+
+/* When the radio button is checked, add a blue background */
+.containers input:checked ~ .checkmark {
+    background-color: #f75344;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containers input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containers .checkmark:after {
+    top: 6px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+/*--- custom Menu1 end--*/
+/*--- custom Menu2 --*/
+/* The container */
+.containerr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containerr input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmarks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.containerr:hover input ~ .checkmarks {
+    background-color: #eee;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerr input:checked ~ .checkmarks {
+    background-color: #F75344;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarks:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.containerr input:checked ~ .checkmarks:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerr .checkmarks:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*--- custom Menu2 end--*/
+/*--- custom Menu2 search--*/
+.search-shop{
+    padding: 10px;
+    display: inline-block
+}
+.search-shop input{
+    display: inline-block;
+    font-size: 13px;
+    height: 25px;
+    width: 95px;
+    padding: 13px;
+}
+.search-icon{
+    padding: 6px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-left: 16px;
+}
+.search-shop2 form input{
+    padding: 13px;
+    display: inline-block;
+    height: 25px;
+    width: 45px;
+    font-size: 12px;
+}
+.search-shop2 p{
+    padding: 8px;
+    display: inline-block
+}
+.search-icon2{
+    font-size: 15px;
+    padding: 4px 10px;
+    border: 1px solid #ddd;
+    margin-left: 7px;
+    text-align: center;
+}
+.single-accordion a{
+    font-size: 12px;
+    color:#F56400;
+    border: none;
+    text-decoration: none
+}
+.checkbox2 a:hover{
+    text-decoration: none
+}
+.country{
+    padding: 13px ;
+    font-size: 14px;
+}
+
+/*--- custom Menu2 search end--*/
+
+/*-------------------Left category Menu End---*/
+
+/*------------------- main-content------------*/
+.box-image{
+    overflow: hidden;
+}
+.box-image img {
+    border-radius: 3px;
+    width: 100%;
+    height: 355px;
+    object-fit: cover;
+     transition: all .40s ease-in-out;
+}
+.box_inner:hover .box-image img {
+    transform: scale(1.09);
+}
+.product_cat {
+    width: 93%
+}
+
+.content_top {
+    padding-top: 15px;
+}
+.box_inner{
+	position:relative;
+    margin: 0px -10px;
+    padding-bottom: 20px;
+        overflow: hidden;
+}
+
+.box_inner:hover .sale-box{
+    display: block;
+}
+.sale-box{
+    position: absolute;
+    display: none;
+    top: 5px;
+    right: 10px;
+    overflow: hidden;
+    color: red;
+    font-size: 20px;	
+}
+.desc{
+border-top: 5px solid #fff;
+    text-align: center;
+    padding: 3px;
+    background-color: #fff;
+}
+
+.desc:hover{
+border-top: 5px solid lightseagreen;
+    text-align: center;
+    padding: 3px;
+    background-color: #F7F6F2;
+}
+.desc p{
+    color: #5077b6;
+font-size: 15px;
+font-weight: 600;
+    margin: 0;
+}
+.desc span{
+    color: #5077b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.desc h3{
+	color:gray;
+	font-size:1em;
+	font-weight:400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0px;
+    padding-bottom: 3px;
+}
+.desc h4{
+	font-weight: 600;
+    font-size: 15px;
+    white-space: normal;
+    display: inline-block;
+    padding-right: 5px;
+    margin: 0px;
+}
+.del-item{
+    color:#3E8609;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 100;
+}
+.desc h5 {
+    display: inline-block;
+    color:#3E8609;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+/*--- main-content end--*/
+
+
+/*------------Responsive*----------------/
+
+/*Desktop 1366px - Bootstrap Layout - MD*/
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px ) {
+    
+    
+    
+}
+/*--Tablet 768px - Bootstrap Layout - SM--*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px ) {
+    
+}
+
+
+/*---Mobile - Bootstrap Layout - XS----*/
+@media only screen and (max-width: 767px ) {
+    
+}
+
+
+
+/*---Wide 480px - Bootstrap Layout - XS--*/
+
+@media only screen and (min-width: 413px) and (max-width: 767px ) {
+    
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 412px ) {
+    
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px ) {
+
+    
+    
+}
